@@ -1,0 +1,17 @@
+.env
+.env.local
+*.env
+!.env.example
+
+node_modules/
+dist/
+build/
+
+*.log
+.DS_Store
+
+*.exe
+*.exe~
+pulse
+pulse.exe
+pulse.exe~
