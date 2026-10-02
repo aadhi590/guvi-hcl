@@ -22,8 +22,8 @@ Pulse is a high-performance, real-time live polling and audience engagement plat
 | **Frontend** | React 19, TypeScript, Vite | Modern component lifecycle, strict type checking, sub-second HMR, and lean production bundles. |
 | **Styling** | Tailwind CSS v4 | Utility-first, zero-runtime CSS with modern color spaces and custom glassmorphism design tokens. |
 | **Backend Runtime** | Go 1.26 (Gin Web Framework) | High-concurrency, low-latency compiled backend capable of servicing thousands of simultaneous connections with minimal memory footprint. |
-| **Realtime Engine** | Redis (Upstash Serverless Redis) | In-memory atomic data structures, high-throughput pub/sub broadcast channel, and Lua scripting engine. |
-| **Durable Database** | MongoDB Atlas | Document storage for user profiles, poll metadata, and audit log entries. |
+| **Realtime Engine** | Redis | In-memory atomic data structures, high-throughput pub/sub broadcast channel, and Lua scripting engine. |
+| **Database** | MongoDB Atlas | Document storage for user profiles, poll metadata, and audit log entries. |
 | **Deployment** | Vercel (Frontend) & Railway (Backend) | Edge CDN delivery for client assets and containerized continuous deployment for the Go API. |
 
 ---
