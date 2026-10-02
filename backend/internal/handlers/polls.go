@@ -188,7 +188,7 @@ func (d *Deps) CreatePoll(c *gin.Context) {
 				"question": poll.Question,
 				"options":  poll.Options,
 				"joinCode": poll.JoinCode,
-				"path":     "/poll/" + poll.ID.Hex(),
+				"path":     "/polls/" + poll.ID.Hex(),
 				"closed":   poll.Closed,
 				"quizMode": poll.QuizMode,
 			}

@@ -140,10 +140,11 @@ export default function ManagePollPage() {
     });
   }
 
-  const voteUrl = useMemo(
-    () => (poll ? `${window.location.origin}/polls/${poll.id}` : ""),
-    [poll],
-  );
+  const voteUrl = useMemo(() => {
+    if (!poll) return "";
+    const base = (import.meta.env.VITE_PUBLIC_URL as string)?.replace(/\/+$/, "") || window.location.origin;
+    return `${base}/polls/${poll.id}`;
+  }, [poll]);
 
   if (error) {
     return (
