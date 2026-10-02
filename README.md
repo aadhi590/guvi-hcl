@@ -229,11 +229,6 @@ Open `http://localhost:5173` in your browser.
 
 ---
 
-## Development Notes
-
-Built with Claude Code as an AI pair-programming assistant for rapid architectural scaffolding and implementation iteration.
-
----
 
 ## License
 
