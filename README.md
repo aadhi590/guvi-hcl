@@ -2,16 +2,17 @@
 
 Pulse is a high-performance, real-time live polling and audience engagement platform engineered for classrooms, meetups, and live presentations. It enables hosts to launch interactive polls, gather anonymous speed-scored responses or confidence-weighted votes, stream real-time results instantly without page refreshes, and visualize live audience momentum.
 
-<!-- Replace the placeholder below with a real screenshot of the Pulse landing page or host dashboard prior to final submission -->
-![Pulse Landing Page Banner](docs/screenshot-landing.png)
+<img width="1346" height="691" alt="image" src="https://github.com/user-attachments/assets/07d18d8a-54b4-43f7-a8ab-745667416aa3" />
+
+
 
 ---
 
 ## Deployment & Live Links
 
-- **Live Demo Application**: [https://pulse-poll.vercel.app](https://pulse-poll.vercel.app) *(Update with your production Vercel URL)*
-- **Backend API Service**: [https://pulse-backend-production.up.railway.app](https://pulse-backend-production.up.railway.app) *(Update with your Railway service URL)*
-- **GitHub Repository**: [https://github.com/aadhi590/guvi-hcl](https://github.com/aadhi590/guvi-hcl)
+- **Live Demo Application**: https://guvi-hcl-one.vercel.app/
+- **Backend API Service**: https://guvi-hcl-production.up.railway.app/
+- **GitHub Repository**: https://github.com/aadhi590/guvi-hcl
 
 ---
 
